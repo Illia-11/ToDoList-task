@@ -10,63 +10,29 @@ body {
   align-items: center;
 }
 
-.to-do-list-container {
+#form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  background-color: blueviolet;
-  min-width: 300px;
-  min-height: 200px;
-  border-radius: 10px;
-  border: 3px solid black;
 }
 
-.big-input-container {
+.container {
   display: flex;
   flex-direction: column;
-}
-
-.icon {
-  height: 25px;
-}
-
-.small-input-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 10px;
-  margin: 10px 20px;
-}
-
-#list-input {
-  border: 3px solid black;
+  align-items: center;
+  background-color: green;
+  width: 300px;
   border-radius: 10px;
+  border: 3px solid black;
 }
 
-#delete-btn {
-  padding: 2px;
-  border-radius: 50px;
+#list {
   display: flex;
-  justify-content: center;
-  margin-left: 10px;
-  background-color: blueviolet;
-  border: 0;
+  flex-direction: column;
+  align-items: center;
 }
 
-#delete-btn:hover {
-  border: 3px solid green;
-}
-
-.list-headline {
-  font-size: 36px;
-  font-weight: bold;
-  color: aqua;
-  margin: 30px;
-}
-
-#addNewTaskBtn {
+#create-new-note-btn {
   margin: 20px;
   width: 150px;
   height: 50px;
@@ -78,6 +44,9 @@ body {
   font-size: 20px;
 }
 
-#addNewTaskBtn:hover {
-  opacity: 0.7;
+.headline {
+  font-size: 36px;
+  font-weight: bold;
+  color: aqua;
+  margin: 10px;
 }
