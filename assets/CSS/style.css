@@ -3,3 +3,81 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-do-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: blueviolet;
+  min-width: 300px;
+  min-height: 200px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.big-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  height: 25px;
+}
+
+.small-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  margin: 10px 20px;
+}
+
+#list-input {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#delete-btn {
+  padding: 2px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: blueviolet;
+  border: 0;
+}
+
+#delete-btn:hover {
+  border: 3px solid green;
+}
+
+.list-headline {
+  font-size: 36px;
+  font-weight: bold;
+  color: aqua;
+  margin: 30px;
+}
+
+#addNewTaskBtn {
+  margin: 20px;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  color: darkblue;
+  border-radius: 10px;
+  background-color: lightblue;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+#addNewTaskBtn:hover {
+  opacity: 0.7;
+}
